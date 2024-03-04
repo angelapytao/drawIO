@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T08:49:57.924Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="VI8RAsVj1gFyOGoskCPZ" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T08:57:13.665Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="oUoOal-4UBBXJlOp5Wlu" version="23.0.2" type="github">
   <diagram name="Page-1" id="G5TG4eLdLc7dNTts0x5p">
-    <mxGraphModel dx="1089" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1062" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-20" value="感知层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="208" y="252" width="63" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-21" value="网络层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="329" y="294" width="63" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-22" value="数字孪生" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="335" width="79" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-23" value="服务路由层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="442" y="294" width="95" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-24" value="IoT平台" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="592" y="210" width="69" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-25" value="视频服务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="587" y="294" width="79" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-26" value="算法平台" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="587" y="377" width="79" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.4852941176470588;entryX=0.14019579887843342;entryY=-0.014705882352941176;rounded=0;" edge="1" parent="1" source="J8IK4nksXWXiBh3rpPNW-20" target="J8IK4nksXWXiBh3rpPNW-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.14019579887843342;entryY=0.9705882352941176;rounded=0;" edge="1" parent="1" source="J8IK4nksXWXiBh3rpPNW-22" target="J8IK4nksXWXiBh3rpPNW-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.47794117647058826;entryX=0;entryY=0.47794117647058826;rounded=0;" edge="1" parent="1" source="J8IK4nksXWXiBh3rpPNW-21" target="J8IK4nksXWXiBh3rpPNW-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.6530885597226601;exitY=-0.014705882352941176;entryX=-0.002377717391304348;entryY=0.49264705882352944;rounded=0;" edge="1" parent="1" source="J8IK4nksXWXiBh3rpPNW-23" target="J8IK4nksXWXiBh3rpPNW-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="562" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.47794117647058826;entryX=0;entryY=0.47794117647058826;rounded=0;" edge="1" parent="1" source="J8IK4nksXWXiBh3rpPNW-23" target="J8IK4nksXWXiBh3rpPNW-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8IK4nksXWXiBh3rpPNW-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.6530885597226601;exitY=0.9705882352941176;entryX=0;entryY=0.49264705882352944;rounded=0;" edge="1" parent="1" source="J8IK4nksXWXiBh3rpPNW-23" target="J8IK4nksXWXiBh3rpPNW-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="562" y="394" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
